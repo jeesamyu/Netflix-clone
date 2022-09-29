@@ -1,0 +1,303 @@
+.first-main-img{
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/45082c39-e6d5-4b02-8867-e38fe32ed3af/4b49769b-ddbc-406a-a26b-482024a66727/IN-en-20220919-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    width:100%;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    padding:0;
+}
+
+.first-total-items{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    box-sizing:border-box;
+    padding-bottom: 100px;
+    border-bottom: 10px solid #333;
+}
+
+.img-layer{
+    margin-left: -20px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 23px;
+    padding-right: 50px;
+}
+
+.main-logo{
+    width: 179px;
+    height: 55px;
+}
+
+.main-logo > div{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.lan-btn{
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #fff;
+    font-size: .857rem;
+    text-indent: 0%;
+    padding: 8px 6px;
+    border-radius: 5px;
+}
+
+.first-buttons{
+    display:flex;
+    column-gap: 50px;
+}
+.dropdown button{
+    padding: 8px 10px;
+}
+.dropdown-menu{
+    min-width:70px;
+    background-color:#8c8c8c;
+    margin: 0%;
+    padding: 0;    
+}
+
+.dropdown-item:hover{
+    width: 100%;
+    background:rgb(46, 105, 207);
+}
+
+.dropdown-item{
+    padding:1px 16px;
+    margin: 0%;
+    color: #fff;
+}
+
+.signin-btn{
+    width: 100px;
+    height: 50px;
+}
+
+.signin{
+    background-color: #e51a14;
+    color: #fff;
+    border:2px solid #e51a14;
+    padding: 4px 20px;
+    border-radius: 5px;
+}
+
+.title{
+    font-size:64px;
+    margin:150px 0 0 0 ;
+    font-weight: bolder;
+}
+
+.sub-heading{
+    font-size: 26px;
+    padding: 10px 0;
+}
+
+.sub-2{
+    padding:0%;
+    font-size: 20px;
+}
+
+
+
+.input{
+    outline: none;
+    border: 1px solid #333;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    vertical-align: baseline;
+    width:600px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+.search-button{
+    font-size: 30px;
+    padding: 9.5px;
+    width:100%;
+    border:1px solid #333;
+    background-color: #e51a14;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    vertical-align: baseline;
+    color: #fff;
+}
+
+.col-sm-12{
+    padding: 0%;
+}
+.col-sm-3{
+    padding: 0%;
+}
+
+
+@media(max-width:375px){
+
+    .first-total-items{
+        padding-bottom: 50px;
+    }
+    .first-row{
+        border-bottom: 10px solid #333;
+    }
+    .nav{
+        padding: 25px 10px;
+    }
+    .img-layer{
+        margin-left: -50px;
+    }
+    
+    .main-logo{
+        width: 95px;
+        height: 30px;
+    }
+
+    .first-buttons{
+        column-gap: 5px;
+        position: relative;
+    }
+
+    .dropdown > button{
+        padding: 2px 3px;
+        border-radius: 0%;
+        border: 0.5px solid #fff;
+    }
+
+    .signin-btn{
+        width: fit-content;
+    }
+
+    .signin-btn > button{
+        width:max-content;
+        padding:2px 3px;
+        border-radius: 0%;
+        font-size: small;
+        color: #fff;
+    }
+
+    .title{
+        font-size: 28px;
+        margin: 0%;
+        padding-top: 10px;
+    }
+    .sub-heading{
+        font-size: 18px;
+        padding:10px 0 0 0 ;
+    }
+    .sub-2{
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding: 0%;
+    }
+    .input{
+        width: 100%;
+        padding:10px 15px;
+    }
+
+    .search-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-div > button{
+        font-size: 15px;
+        padding: 5px 6px;
+        margin: 5px 0 0 0;
+        border-radius: 5px;
+    }
+
+}
+
+@media(min-width:376px) and (max-width:991px){
+    .first-row{
+        border-bottom: 10px solid #333;
+    }
+    .nav{
+        padding: 25px 20px;
+    }
+    
+    .main-logo{
+        width: 120px;
+        height: 40px;
+    }
+
+    .first-buttons{
+        column-gap: 20px;
+        position: relative;
+    }
+
+    .dropdown > button{
+        padding: 5px 5px;
+        border-radius: 0%;
+        border: 0.5px solid #fff;
+        font-size: 14px;
+    }
+
+    .signin-btn{
+        width: fit-content;
+    }
+
+    .signin-btn > button{
+        width:max-content;
+        padding:5px 10px;
+        border-radius: 2px;
+        font-size:14px;
+    }
+
+    .dropdown-toggle i{
+        margin-right: 5px;
+    }
+
+    .title{
+        font-size: 48px;
+        margin: 0%;
+        padding-top: 15px;
+    }
+    .sub-heading{
+        font-size: 24px;
+        padding:10px 0 0 0 ;
+    }
+    .sub-2{
+        font-size: 22px;
+        margin:10px 20px;
+        
+    }
+
+    .input{
+        width:100%;
+        padding:10px 20px;
+        margin: 0%;
+        border-radius: 4px;
+    }
+
+    .search-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-div > button{
+        font-size: 18px;
+        padding: 8px 10px;
+        margin: 5px 0 0 0;
+        border-radius: 4px;
+        color: #fff;
+        width: 40%;
+    }
+    
+}
